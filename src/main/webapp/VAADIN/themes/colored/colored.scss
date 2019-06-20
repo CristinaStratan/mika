@@ -1,0 +1,36 @@
+@import "../valo/valo.scss";
+@mixin colored {
+  @include valo;
+
+  .backgroundColor{
+    background-color: #233348;
+  }
+
+  .textFormat {
+    color: azure;
+    font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";;
+    font-weight: 600;
+    margin-left: 10%;
+  }
+
+  .v-grid {
+    .v-grid-cell {
+      border: 0px;
+    }
+  }
+
+  .no-stripes .v-grid-row-stripe > td {
+    background-color: $v-grid-row-background-color;
+  }
+
+  .v-label-mylabelstyle {
+    color: black;
+    text-align: center;
+    vertical-align: super;
+    margin-bottom: 5%;
+    border-color: white;
+    font-size: 10px;
+  }
+
+}
+@include colored;

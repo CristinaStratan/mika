@@ -1,0 +1,281 @@
+package com.drools.droolstry.rules;
+
+import com.vaadin.ui.Image;
+import com.drools.droolstry.model.Letter;
+import com.vaadin.server.ExternalResource;
+import com.drools.droolstry.model.ChatMessage
+import com.drools.droolstry.model.Result
+import java.util.List
+import java.util.ArrayList;
+global com.drools.droolstry.model.Result resultForBot ;
+global com.drools.droolstry.model.Letter letter;
+
+dialect  "mvel"
+
+//rule "letter A"
+//when
+//$letter : Letter()
+//then
+//Letter letter = new Letter();
+//if (letter.equals("A")){
+//  Image image= new Image();
+//  image.setSource(new com.vaadin.server.ExternalResource("https://lancedehmracing.com/f/2018/12/sign-language-letters-click-the-asl-sign-language-letter-a.jpg"));
+//                image.setSizeFull();
+//                System.out.println("\nPrint letter A Rule");
+//                System.out.println("************************************");
+//        System.out.println(image);
+//}
+//end
+
+rule "this is letter A"
+when
+Letter (letter == "A")
+then
+resultForBot.setValue("https://lancedehmracing.com/f/2018/12/sign-language-letters-click-the-asl-sign-language-letter-a.jpg");
+end
+
+ rule "this is letter B"
+ when
+ Letter (letter == "B")
+ then
+ resultForBot.setValue("http://www.supercoloring.com/sites/default/files/styles/coloring_medium/public/cif/2015/12/asl-sign-language-letter-b-coloring-page.jpg");
+  end
+
+     rule "this is letter C"
+     when
+      Letter (letter == "C")
+     then
+     resultForBot.setValue("http://www.supercoloring.com/sites/default/files/styles/coloring_medium/public/cif/2015/12/asl-sign-language-letter-c-coloring-page.jpg");
+     end
+
+      rule "this is letter D"
+      when
+      Letter (letter == "D")
+      then
+      resultForBot.setValue("http://www.supercoloring.com/sites/default/files/styles/coloring_medium/public/cif/2015/12/asl-sign-language-letter-d-coloring-page.jpg");
+
+      end
+
+      rule "this is letter E"
+        when
+        Letter (letter == "E")
+        then
+        resultForBot.setValue("http://www.supercoloring.com/sites/default/files/styles/coloring_medium/public/cif/2015/12/asl-sign-language-letter-e-coloring-page.jpg");
+            end
+
+
+      rule "this is letter F"
+        when
+        Letter (letter == "F")
+        then
+        resultForBot.setValue("http://www.supercoloring.com/sites/default/files/styles/coloring_medium/public/cif/2015/12/asl-sign-language-letter-f-coloring-page.jpg");
+        end
+
+      rule "this is letter G"
+             when
+             Letter (letter == "G")
+             then
+             resultForBot.setValue("http://www.supercoloring.com/sites/default/files/styles/coloring_medium/public/cif/2015/12/asl-sign-language-letter-g-coloring-page.jpg");
+                end
+
+      rule "this is letter H"
+                  when
+                  Letter (letter == "H")
+                  then
+                  resultForBot.setValue("http://www.supercoloring.com/sites/default/files/styles/coloring_medium/public/cif/2015/12/asl-sign-language-letter-h-coloring-page.jpg");
+                   end
+
+      rule "this is letter I"
+                        when
+                        Letter (letter == "I")
+                        then
+                        resultForBot.setValue("http://www.supercoloring.com/sites/default/files/styles/coloring_medium/public/cif/2016/04/asl-sign-language-letter-i-coloring-page.jpg");
+                        end
+
+      rule "this is letter J"
+                      when
+                      Letter (letter == "J")
+                      then
+                      resultForBot.setValue("http://www.supercoloring.com/sites/default/files/styles/coloring_medium/public/cif/2016/04/asl-sign-language-letter-j-coloring-page.jpg");
+                        end
+
+      rule "this is letter K"
+                        when
+                        Letter (letter == "K")
+                        then
+                        resultForBot.setValue("http://www.supercoloring.com/sites/default/files/styles/coloring_medium/public/cif/2015/12/asl-sign-language-letter-k-coloring-page.jpg");
+                        end
+
+      rule "this is letter L"
+                      when
+                      Letter (letter == "L")
+                      then
+                      resultForBot.setValue("http://www.supercoloring.com/sites/default/files/styles/coloring_medium/public/cif/2015/12/asl-sign-language-letter-l-coloring-page.jpg");
+                       end
+
+      rule "this is letter M"
+                       when
+                       Letter (letter == "M")
+                       then
+                       resultForBot.setValue("http://www.supercoloring.com/sites/default/files/styles/coloring_medium/public/cif/2015/12/asl-sign-language-letter-m-coloring-page.jpg");
+                        end
+
+       rule "this is letter N"
+                        when
+                        Letter (letter == "N")
+                        then
+                        resultForBot.setValue("http://www.supercoloring.com/sites/default/files/styles/coloring_medium/public/cif/2015/12/asl-sign-language-letter-n-coloring-page.jpg");
+                         end
+
+       rule "this is letter P"
+                        when
+                        Letter (letter == "P")
+                        then
+                        resultForBot.setValue("http://www.supercoloring.com/sites/default/files/styles/coloring_medium/public/cif/2015/12/asl-sign-language-letter-p-coloring-page.jpg");
+                         end
+
+       rule "this is letter O"
+                        when
+                        Letter (letter == "O")
+                        then
+                        resultForBot.setValue("http://www.supercoloring.com/sites/default/files/styles/coloring_medium/public/cif/2015/12/asl-sign-language-letter-o-coloring-page.jpg");
+                         end
+
+       rule "this is letter Q"
+                        when
+                        Letter (letter == "Q")
+                        then
+                        resultForBot.setValue("http://www.supercoloring.com/sites/default/files/styles/coloring_medium/public/cif/2015/12/asl-sign-language-letter-q-coloring-page.jpg");
+                         end
+
+       rule "this is letter R"
+                        when
+                        Letter (letter == "R")
+                        then
+                        resultForBot.setValue("http://www.supercoloring.com/sites/default/files/styles/coloring_medium/public/cif/2015/12/asl-sign-language-letter-r-coloring-page.jpg");
+                         end
+
+       rule "this is letter S"
+                        when
+                        Letter (letter == "S")
+                        then
+                        resultForBot.setValue("http://www.supercoloring.com/sites/default/files/styles/coloring_medium/public/cif/2015/12/asl-sign-language-letter-s-coloring-page.jpg");
+                         end
+
+       rule "this is letter T"
+                        when
+                        Letter (letter == "T")
+                        then
+                        resultForBot.setValue("http://www.supercoloring.com/sites/default/files/styles/coloring_medium/public/cif/2015/12/asl-sign-language-letter-t-coloring-page.jpg");
+                         end
+
+      rule "this is letter U"
+                              when
+                              Letter (letter == "U")
+                              then
+                              resultForBot.setValue("http://www.supercoloring.com/sites/default/files/styles/coloring_medium/public/cif/2015/12/asl-sign-language-letter-u-coloring-page.jpg");
+                               end
+
+      rule "this is letter V"
+                              when
+                              Letter (letter == "V")
+                              then
+                              resultForBot.setValue("http://www.supercoloring.com/sites/default/files/styles/coloring_medium/public/cif/2015/12/asl-sign-language-letter-v-coloring-page.jpg");
+                               end
+
+      rule "this is letter W"
+                              when
+                              Letter (letter == "W")
+                              then
+                              resultForBot.setValue("http://www.supercoloring.com/sites/default/files/styles/coloring_medium/public/cif/2015/12/asl-sign-language-letter-w-coloring-page.jpg");
+                               end
+
+      rule "this is letter X"
+                              when
+                              Letter (letter == "X")
+                              then
+                              resultForBot.setValue("http://www.supercoloring.com/sites/default/files/styles/coloring_medium/public/cif/2015/12/asl-sign-language-letter-x-coloring-page.jpg");
+                               end
+
+      rule "this is letter Y"
+                              when
+                              Letter (letter == "Y")
+                              then
+                              resultForBot.setValue("http://www.supercoloring.com/sites/default/files/styles/coloring_medium/public/cif/2015/12/asl-sign-language-letter-y-coloring-page.jpg");
+                               end
+
+      rule "this is letter Z"
+                     when
+                     Letter (letter == "Z")
+                     then
+                     resultForBot.setValue("http://www.supercoloring.com/sites/default/files/styles/coloring_medium/public/cif/2015/12/asl-sign-language-letter-z-coloring-page.jpg");
+                     end
+
+      rule "hello"
+            when
+            Letter (letter == "HI" || letter == "HELLO" || letter == "SALUT" ||letter == "BUNA" || letter == "BUNĂ" )
+            then
+            resultForBot.setValue("Salut! Eu sunt, asistentul tău virtual, Mika. Te voi ajuta să înveți limbajul semnelor. Hai să începem! ");
+            end
+
+      rule "purpose"
+            when
+            Letter (letter == "CARE ESTE SCOPUL TĂU" || letter == "CARE ESTE SCOPUL TĂU?" || letter == "CU CE MĂ POȚI AJUTA" || letter == "CE POȚI TU FACE" || letter == "CARE ESTE SCOPUL TAU?" || letter == "CU CE MA POTI AJUTA" || letter == "CE POTI TU FACE")
+            then
+            resultForBot.setValue("Eu sunt prietenul și asistentul tău. Eu pot să îți arăt gesturile limbajului mimico gestual. ");
+            end
+
+      rule "farewell"
+            when
+            Letter (letter == "BYE" || letter == "END" || letter == "LA REVEDERE" || letter == "PA")
+            then
+//             resultForBot.setValue("Goodbye, it was nice to have you!");
+             resultForBot.setValue("La revedere, a fost o placere să discut cu tine.");
+             end
+
+      rule "thanks"
+            when
+            Letter (letter == "THANKS" || letter == "MULȚUMESC" || letter == "MERSI")
+            then
+            resultForBot.setValue("Cu plăcere!");
+            end
+
+      rule "how are you"
+                  when
+                  Letter (letter == "CUM STAI?" || letter == "CE FACI?" || letter == "CUM STAI" || letter == "CE FACI" || letter == "CF")
+                  then
+                  resultForBot.setValue("Sunt bine, mulțumesc pentru întrebare. Cu ce te pot ajuta?");
+                  end
+
+      rule "girl/boy"
+                  when
+                  Letter (letter == "ESTI BAIAT SAU FATA?" || letter == "EȘTI BĂIAT SAU FATĂ?" || letter == "CE SEX AI?")
+                  then
+                  resultForBot.setValue("Eu sunt neutrală.");
+                  end
+
+       rule "AGE"
+                  when
+                  Letter (letter == "CE VÎRSTĂ AI?" || letter == "CITI ANI AI?" || letter == "CÎȚI ANI AI?")
+                  then
+                  resultForBot.setValue("Eu sunt relativ tînără! Dar cuceresc fiecare obstacol ca un campion.");
+                  end
+
+       rule "joke"
+                  when
+                  Letter (letter == "SPUNE-MI O GLUMĂ" || letter == "SPUNEMI O GLUMA" || letter == "SPUNEMI UN BANC" || letter == "ZI O GLUMA" || letter == "ZI O ANECDOTA" )
+                  then
+                  resultForBot.setValue("De ce nu merge melcul pe bicicletă? \n -Pentru că-i fâlfâie ochii.");
+                  end
+
+//       rule "purpose"
+//                  when
+//                  Letter (letter == "" )
+//                  then
+//                  end
+//
+//       rule "purpose"
+//                  when
+//                  Letter (letter == "" )
+//                  then
+//                  end

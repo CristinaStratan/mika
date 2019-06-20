@@ -1,0 +1,17 @@
+
+Lol:hi
+Mika :Salut! Eu sunt, asistentul tău virtual, Mika. Te voi ajuta să înveți limbajul semnelor. Hai să începem! 
+Lol:cf
+Mika :Sunt bine, mulțumesc pentru întrebare. Cu ce te pot ajuta?
+Lol:a  b c 
+Mika :com.vaadin.server.ExternalResource@4f5c2fd5
+Mika :com.vaadin.server.ExternalResource@6fa40941
+Mika :com.vaadin.server.ExternalResource@f7182a
+dan:hi
+Mika :Salut! Eu sunt, asistentul tău virtual, Mika. Te voi ajuta să înveți limbajul semnelor. Hai să începem! 
+dan:cf
+Mika :Sunt bine, mulțumesc pentru întrebare. Cu ce te pot ajuta?
+dan:k
+Mika :com.vaadin.server.ExternalResource@3a24f90
+dan:l
+Mika :com.vaadin.server.ExternalResource@3cab08bd
